@@ -40,6 +40,7 @@ A requisição foi arquitetada para se comunicar com o endpoint de geração de 
 | `Content-Type` | `application/json` |
 
 **Body JSON Utilizado:**
+
 ```json
 {
   "email": "thiago.teste@facens.br",
@@ -54,6 +55,8 @@ Registro dos Testes
 Os testes foram documentados em uma planilha técnica de QA. Esta documentação é crucial no ciclo de desenvolvimento porque garante rastreabilidade, padroniza as validações para futuros testes de regressão e facilita a comunicação de bugs para a equipe de desenvolvimento.
 
 Evidência da Planilha
+<img width="1642" height="312" alt="PRINTCAIXACINZA" src="https://github.com/user-attachments/assets/7ba88e84-72c3-4512-b3bb-ba267d19bed5" />
+
 Resultados Obtidos
 A API do Supabase demonstrou alta resiliência e estabilidade durante os testes funcionais. O serviço tratou perfeitamente todos os Bad Requests, emitindo códigos de status HTTP corretos (família 4xx) e mensagens em JSON descritivas sobre os erros, impedindo o avanço de credenciais anômalas e gerando o access_token JWT exclusivamente no cenário principal com credenciais válidas.
 
