@@ -46,16 +46,26 @@ A requisição foi arquitetada para se comunicar com o endpoint de geração de 
   "email": "thiago.teste@facens.br",
   "password": "Teste123456!"
 }
+  ```
 
 Execução dos Testes
 Os testes de Caixa Cinza foram executados submetendo a API a cenários previstos e imprevistos, validando se a resposta do servidor correspondia às regras de negócio de autenticação.
 
 Evidências dos Testes
+<img width="1267" height="885" alt="CENARIO1" src="https://github.com/user-attachments/assets/f3d8ad36-8df3-4d05-8e68-04a7f5d28181" />
+<img width="1268" height="882" alt="CENARIO2" src="https://github.com/user-attachments/assets/f40cefba-eb3a-494b-9136-b1d85bf021b6" />
+<img width="1277" height="885" alt="CENARIO3" src="https://github.com/user-attachments/assets/b9ec3613-1b71-4896-929c-a34cc3165015" />
+<img width="1265" height="877" alt="CENARIO4" src="https://github.com/user-attachments/assets/2c75e104-1d47-4f62-8b00-a2fb677988d6" />
+<img width="1277" height="882" alt="CENARIO5" src="https://github.com/user-attachments/assets/27fe2c1f-acf9-469a-9e01-a9bd5b00592e" />
+
+
+
+
 Registro dos Testes
 Os testes foram documentados em uma planilha técnica de QA. Esta documentação é crucial no ciclo de desenvolvimento porque garante rastreabilidade, padroniza as validações para futuros testes de regressão e facilita a comunicação de bugs para a equipe de desenvolvimento.
 
 Evidência da Planilha
-<img width="1642" height="312" alt="PRINTCAIXACINZA" src="https://github.com/user-attachments/assets/7ba88e84-72c3-4512-b3bb-ba267d19bed5" />
+<img width="1642" height="312" alt="PRINTCAIXACINZA" src="https://github.com/user-attachments/assets/f31dfe35-393e-4118-8f15-8b776e12095d" />
 
 Resultados Obtidos
 A API do Supabase demonstrou alta resiliência e estabilidade durante os testes funcionais. O serviço tratou perfeitamente todos os Bad Requests, emitindo códigos de status HTTP corretos (família 4xx) e mensagens em JSON descritivas sobre os erros, impedindo o avanço de credenciais anômalas e gerando o access_token JWT exclusivamente no cenário principal com credenciais válidas.
