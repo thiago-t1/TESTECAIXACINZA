@@ -75,4 +75,4 @@ A execução correta de todos os testes confirmou que a autenticação foi confi
 Esta atividade atestou a importância brutal do Teste de Caixa Cinza em APIs. Ao conhecermos os dados de entrada e a estrutura dos retornos, conseguimos simular o comportamento de um frontend real antes mesmo dele existir, garantindo que o backend está blindado contra falhas lógicas e estruturais.
 
 ✒️ Autor
-Thiago
+**Thiago**
